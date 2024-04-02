@@ -36,7 +36,7 @@ margin: 0 auto;
     color: var(--verde); 
 }
 
-.ativo.botao{
+.botao{
     font-family:"crakra petch",sa,  sans-serif;
     background-color: var(--botao-imativo);
     color: var(--branco);
@@ -51,24 +51,7 @@ margin: 0 auto;
   border-right: 4px solid var(--botao-ativo);
    border-top: none;
 }
-.abas-textos{
-    background-color: var(--texto-fundo);
-    padding: 40px;
-    border-radius: 0 0 40px 40px;
-}
-.aba-conteudo.ativo{
-    display: block;
-}
-.aba-conteudo{
-    display: none;
-}
-.aba-conteudo-titulo-prinncipal{
-    font-size: 28px;
-    text-align: center;
-}
-.aba-conteudo-titulo-secundario{
-    text-align: center;
-}
+
 .botao:first-child{
 border-radius: 40px 40px 0 0;
 }
